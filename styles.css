@@ -1,0 +1,41 @@
+.topo{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(100, 99, 99);
+}
+
+.botaoSubtrair{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.botaoSomar{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.contador{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
