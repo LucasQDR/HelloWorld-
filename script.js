@@ -1,21 +1,10 @@
-let contarMenos = document.querySelector(".botaoSubtrair");
-let contarMais = document.querySelector(".botaoSomar");
-let contadorDisplay = document.querySelector(".contador"); 
+const display = document.getElementById("contador");
 
 let contar = 0;
 
-atualizarDisplay();
 
-contarMais.addEventListener("click",()=>{
-    contar++;
-    atualizarDisplay();
-});
 
-contarMenos.addEventListener("click",()=>{
-    contar--;
-    atualizarDisplay();
-});
+function somar(){
+    display.innerText = + 1
+} 
 
-function atualizarDisplay(){
-    contadorDisplay.innerHTML = contar;
-};

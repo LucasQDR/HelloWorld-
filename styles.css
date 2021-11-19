@@ -13,7 +13,7 @@
     background-color: rgb(100, 99, 99);
 }
 
-.botaoSubtrair{
+#botaoSubtrair{
     margin: 0;
     position: absolute;
     top: 50%;
@@ -22,7 +22,7 @@
     transform: translate(-50%, -50%);
 }
 
-.botaoSomar{
+#botaoSomar{
     margin: 0;
     position: absolute;
     top: 50%;
@@ -31,7 +31,7 @@
     transform: translate(-50%, -50%);
 }
 
-.contador{
+#contador{
     margin: 0;
     position: absolute;
     top: 40%;
