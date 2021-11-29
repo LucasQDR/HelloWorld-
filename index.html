@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>ToDoList</title>
 </head>
 <body>
+    
     <header>
         <div class="topo">
-            topo
+            <h1>contador</h1>
         </div>
     </header>
 
     <p id="contador">0</p>
-    <button onclick="subtrair()" id="botaoSubtrair">-</button>
-    <button onclick="somar()" id="botaoSomar">+</button>
-    
-    <div class="rodape">
-        rodape
+
+    <div class="botoes">
+        <button onclick="subtrair()" id="botaoSubtrair">-</button>
+        <button onclick="reset()" id="botaoReset">Reset</button>
+        <button onclick="somar()"  id="botaoSomar">+</button>
     </div>
+    
+    <div class="rodape"></div>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
